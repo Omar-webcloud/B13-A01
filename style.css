@@ -173,7 +173,7 @@ body {
     font-size: 42px;
     font-weight: 700;
     margin: 0 0 12px 0;
-    color: #070d13;
+    color: #0b1f33;
 }
 
 .note-section p.subtitle {
@@ -223,4 +223,72 @@ body {
     line-height: 1.5;
     color: #6b7c93;
     margin: 0;
+}
+
+
+
+.second-brain {
+    padding: 120px 120px;
+    background: #ffffff;
+    
+}
+
+.sb-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.sb-img {
+    width: 520px;
+    height: 520px;
+    background: #fafafa;
+    
+}
+
+.sb-content {
+    max-width: 520px;
+}
+
+.sb-title {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    color: #2da44e;
+    margin-bottom: 16px;
+}
+
+.sb-content h2 {
+    font-size: 44px;
+    line-height: 1.15;
+    font-weight: 700;
+    color: #0b1f33;
+    margin: 0 0 20px 0;
+}
+
+.sb-para {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #6b7c93;
+    margin: 0 0 28px 0;
+}
+
+.sb-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sb-list li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 14px;
+    font-size: 15px;
+    color: #0b1f33;
+}
+.sb-list li img{
+
+    width: 15px;
+    
 }
