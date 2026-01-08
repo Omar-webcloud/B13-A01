@@ -162,3 +162,65 @@ body {
 }
 
 
+
+
+.note-section {
+    padding: 80px 120px;
+    text-align: center;
+}
+
+.note-section h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    color: #070d13;
+}
+
+.note-section p.subtitle {
+    font-size: 16px;
+    color: #6b7c93;
+    margin: 0 0 60px 0;
+}
+
+.cards {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    width: 280px;
+    padding: 32px 24px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    background: #ff5a5a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    width: 50px;
+    
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6b7c93;
+    margin: 0;
+}
